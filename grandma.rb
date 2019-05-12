@@ -13,9 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(var)
-  if "var" == "var.uppercase"
+  if "#{var}" == "#{}{var}.uppercase"
     puts "NO, NOT SINCE 1938!"
-  elsif "var" == "I LOVE YOU GRANDMA!"
+  elsif "#{var}" == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   else
     puts "HUH?! SPEAK UP, SONNY!"
